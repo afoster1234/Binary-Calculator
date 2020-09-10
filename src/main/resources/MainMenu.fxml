@@ -6,15 +6,15 @@
 <AnchorPane prefHeight="480.0" prefWidth="320.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Controller">
     <Pane fx:id="randomPane" layoutX="20.0" layoutY="14.0" prefHeight="95.0" prefWidth="280.0" style="-fx-background-color: lightgray;" AnchorPane.leftAnchor="12.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="12.0">
     </Pane>
-   <ToggleButton layoutX="24.0" layoutY="130.0" mnemonicParsing="false" onAction="#toggleBinaryDecimal" prefHeight="25.0" prefWidth="208.0" text="Toggle Binary/Decimal" />
-   <Button layoutX="123.0" layoutY="191.0" mnemonicParsing="false" onAction="#zero" text="0" />
-   <Button layoutX="243.0" layoutY="130.0" mnemonicParsing="false" onAction="#clear" text="CLEAR" />
-   <Button layoutX="174.0" layoutY="191.0" mnemonicParsing="false" onAction="#one" text="1" />
-   <Button layoutX="42.0" layoutY="270.0" mnemonicParsing="false" onAction="#addition" prefHeight="25.0" prefWidth="52.0" text="+" />
-   <Button layoutX="134.0" layoutY="270.0" mnemonicParsing="false" onAction="#subtraction" prefHeight="25.0" prefWidth="51.0" text="-" />
-   <Button layoutX="217.0" layoutY="345.0" mnemonicParsing="false" onAction="#squareRoot" prefHeight="25.0" prefWidth="51.0" text="√" />
-   <Button layoutX="217.0" layoutY="270.0" mnemonicParsing="false" onAction="#squared" prefHeight="25.0" prefWidth="51.0" text="x^2" />
-   <Button layoutX="42.0" layoutY="345.0" mnemonicParsing="false" onAction="#multiplication" prefHeight="25.0" prefWidth="52.0" text="X" />
-   <Button layoutX="134.0" layoutY="345.0" mnemonicParsing="false" onAction="#division" prefHeight="25.0" prefWidth="51.0" text="\%" />
-   <Button layoutX="134.0" layoutY="415.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="51.0" text="=" />
+   <ToggleButton fx:id="toggleBinaryDecimal" layoutX="24.0" layoutY="130.0" mnemonicParsing="false" onAction="#toggleBinaryDecimal" prefHeight="25.0" prefWidth="208.0" text="Toggle Binary/Decimal" />
+   <Button fx:id="zero" layoutX="123.0" layoutY="191.0" mnemonicParsing="false" onAction="#zero" text="0" />
+   <Button fx:id="clear" layoutX="243.0" layoutY="130.0" mnemonicParsing="false" onAction="#clear" text="CLEAR" />
+   <Button fx:id="one" layoutX="174.0" layoutY="191.0" mnemonicParsing="false" onAction="#one" text="1" />
+   <Button fx:id="addition" layoutX="42.0" layoutY="270.0" mnemonicParsing="false" onAction="#addition" prefHeight="25.0" prefWidth="52.0" text="+" />
+   <Button fx:id="subtraction" layoutX="134.0" layoutY="270.0" mnemonicParsing="false" onAction="#subtraction" prefHeight="25.0" prefWidth="51.0" text="-" />
+   <Button fx:id="squareRoot" layoutX="217.0" layoutY="345.0" mnemonicParsing="false" onAction="#squareRoot" prefHeight="25.0" prefWidth="51.0" text="√" />
+   <Button fx:id="squared" layoutX="217.0" layoutY="270.0" mnemonicParsing="false" onAction="#squared" prefHeight="25.0" prefWidth="51.0" text="x^2" />
+   <Button fx:id="multiplication" layoutX="42.0" layoutY="345.0" mnemonicParsing="false" onAction="#multiplication" prefHeight="25.0" prefWidth="52.0" text="X" />
+   <Button fx:id="division" layoutX="134.0" layoutY="345.0" mnemonicParsing="false" onAction="#division" prefHeight="25.0" prefWidth="51.0" text="\%" />
+   <Button fx:id="equals" layoutX="134.0" layoutY="415.0" mnemonicParsing="false" onAction="#equals" prefHeight="25.0" prefWidth="51.0" text="=" />
 </AnchorPane>
