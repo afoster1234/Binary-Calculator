@@ -10,6 +10,7 @@ public class Controller extends MainMenu {
     @FXML Button binaryToggle;
     @FXML Button clear;
     @FXML Button equals;
+    @FXML Button backspace;
     //operators
     @FXML Button zero;
     @FXML Button one;
@@ -55,6 +56,9 @@ public class Controller extends MainMenu {
     }
 
     public void decimalToggle(ActionEvent actionEvent) {
+    }
+
+    public void backspace(ActionEvent actionEvent) {
     }
 }
 
