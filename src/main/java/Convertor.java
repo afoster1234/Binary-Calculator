@@ -1,10 +1,10 @@
 public class Convertor {
 
-    public int toDecimal(String binary){
+    public static int toDecimal(String binary){
         return Integer.parseInt(binary, 2);
     }
 
-    public String toBinary(int decimal){
+    public static String toBinary(int decimal){
         return Integer.toBinaryString(decimal);
     }
 }
