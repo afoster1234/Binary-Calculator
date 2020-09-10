@@ -1,42 +1,25 @@
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.Pane;
 
 public class Controller extends MainMenu {
+    //calculator
+    @FXML Pane randomPane;
+    @FXML Button decimalToggle;
+    @FXML Button binaryToggle;
+    @FXML Button clear;
+    @FXML Button equals;
+    //operators
+    @FXML Button zero;
+    @FXML Button one;
+    @FXML Button addition;
+    @FXML Button subtraction;
+    @FXML Button multiplication;
+    @FXML Button division;
+    @FXML Button squared;
+    @FXML Button squareRoot;
 
-    @FXML
-    Pane randomPane;
-    @FXML
-    ToggleButton toggleBinaryDecimal;
-    @FXML
-    Button zero;
-    @FXML
-    Button one;
-    @FXML
-    Button clear;
-    @FXML
-    Button addition;
-    @FXML
-    Button subtraction;
-    @FXML
-    Button multiplication;
-    @FXML
-    Button division;
-    @FXML
-    Button squared;
-    @FXML
-    Button squareRoot;
-    @FXML
-    Button equals;
-
-    public void initialize(){
-
-    }
-
-    public void toggleBinaryDecimal(ActionEvent actionEvent) {
-    }
 
     public void zero(ActionEvent actionEvent) {
     }
@@ -66,6 +49,12 @@ public class Controller extends MainMenu {
     }
 
     public void equals(ActionEvent actionEvent) {
+    }
+
+    public void binaryToggle(ActionEvent actionEvent) {
+    }
+
+    public void decimalToggle(ActionEvent actionEvent) {
     }
 }
 
