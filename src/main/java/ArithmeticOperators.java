@@ -31,7 +31,8 @@ public class ArithmeticOperators {
 
     public String squareroot(String binary1) {
         int int1 = Convertor.toDecimal(binary1);
-        Math.round(Math.sqrt(int1));
-        return Convertor.toBinary(int1);
+        Long long1 = Math.round(Math.sqrt(int1));
+        int intR = long1.intValue();
+        return Convertor.toBinary(intR);
     }
 }
