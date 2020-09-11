@@ -7,9 +7,9 @@ Perform operations on your numbers using the various operator buttons, +, -, x, 
 Press the = button to finalize the operation.  
 You can convert your display from binary to decimal using the toggle button.  
 ## Contributions
-Adam Gackenheimer: Created slack group, repo, gitignore, and README  
-Austin Foster: Created UI  
-Robert Klueber: Created square and squareroot functions  
-Daniel Gonzalez: Created tests  
-Matthew Schrag: Created binary convertor and arithemetic operators  
+Adam Gackenheimer = Created slack group, repo, gitignore, and README  
+Austin Foster = Created UI  
+Robert Klueber = Created square and squareroot functions  
+Daniel Gonzalez = Created tests  
+Matthew Schrag = Created binary convertor and arithemetic operators  
 
