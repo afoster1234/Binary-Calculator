@@ -9,7 +9,15 @@ public class ArithmeticOperators {
     public String subtraction(String binary1, String binary2){
         int int1 = Convertor.toDecimal(binary1);
         int int2 = Convertor.toDecimal(binary2);
-        return Convertor.toBinary(int1 - int2);
+        int sub = int1 - int2;
+        boolean neg = false;
+        if(sub < 0){
+            neg = true;
+        }
+        if(neg){
+            //return "-" + Convertor.toBinary(sub);
+        }
+        return Convertor.toBinary(sub);
     }
 
     public String multiplication(String binary1, String binary2){
@@ -26,7 +34,8 @@ public class ArithmeticOperators {
 
     public String square(String binary1) {
         int int1 = Convertor.toDecimal(binary1);
-        return Convertor.toBinary(int1 ^ 2);
+        int square = int1 * int1;
+        return Convertor.toBinary(square);
     }
 
     public String squareroot(String binary1) {

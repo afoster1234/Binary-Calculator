@@ -8,6 +8,8 @@ import javafx.scene.layout.Pane;
 public class Controller extends MainMenu {
     //calculator
     @FXML Label calculator;
+    @FXML Pane blocker;
+    @FXML Label calculatorDecimal;
     @FXML Button Toggle;
     @FXML Button clear;
     @FXML Button equals;
@@ -24,16 +26,16 @@ public class Controller extends MainMenu {
     ArithmeticOperators arithmetic = new ArithmeticOperators();
 
     String numberFormat = "binary";
-    String value1;
-    String value2;
+    String value1 = "";
+    String value2 = "";
     String operator = "";
 
     public void zero(ActionEvent actionEvent) {
-        calculator.setText(calculator.getText() + "0");
+        display(calculator.getText() + "0");
     }
 
     public void clear(ActionEvent actionEvent) {
-        calculator.setText("");
+        display("");
         value1 = "";
         value2 = "";
         numberFormat = "binary";
@@ -41,39 +43,39 @@ public class Controller extends MainMenu {
     }
 
     public void one(ActionEvent actionEvent) {
-        calculator.setText(calculator.getText() + "1");
+        display(calculator.getText() + "1");
     }
 
     public void addition(ActionEvent actionEvent) {
         value1 = calculator.getText();
         operator = "addition";
-        calculator.setText("");
+        display("");
     }
 
     public void subtraction(ActionEvent actionEvent) {
         value1 = calculator.getText();
         operator = "subtraction";
-        calculator.setText("");
+        display("");
     }
 
     public void squareRoot(ActionEvent actionEvent) {
-        arithmetic.squareroot(calculator.getText());
+        display(arithmetic.squareroot(calculator.getText()));
     }
 
     public void squared(ActionEvent actionEvent) {
-        arithmetic.square(calculator.getText());
+        display(arithmetic.square(calculator.getText()));
     }
 
     public void multiplication(ActionEvent actionEvent) {
         value1 = calculator.getText();
         operator = "multiplication";
-        calculator.setText("");
+        display("");
     }
 
     public void division(ActionEvent actionEvent) {
         value1 = calculator.getText();
         operator = "division";
-        calculator.setText("");
+        display("");
     }
 
     public void equals(ActionEvent actionEvent) throws Exception {
@@ -83,16 +85,16 @@ public class Controller extends MainMenu {
         value2 = calculator.getText();
         switch (operator) {
             case "addition":
-                calculator.setText(arithmetic.addition(value1, value2));
+                display(arithmetic.addition(value1, value2));
                 break;
             case "subtraction":
-                calculator.setText(arithmetic.subtraction(value1, value2));
+                display(arithmetic.subtraction(value1, value2));
                 break;
             case "multiplication":
-                calculator.setText(arithmetic.multiplication(value1, value2));
+                display(arithmetic.multiplication(value1, value2));
                 break;
             case "division":
-                calculator.setText(arithmetic.division(value1, value2));
+                display(arithmetic.division(value1, value2));
                 break;
             default:
                 throw new Exception();
@@ -100,13 +102,18 @@ public class Controller extends MainMenu {
 
     }
 
+    public void display(String text){
+        calculator.setText(text);
+        calculatorDecimal.setText(String.valueOf(Convertor.toDecimal(text)));
+    }
+
     public void Toggle(ActionEvent actionEvent) {
         if (numberFormat.equals("decimal")) {
-            Convertor.toBinary(Integer.parseInt(calculator.getText()));
+            calculatorDecimal.setVisible(false);
             numberFormat = "binary";
         }
         else if(numberFormat.equals("binary")){
-            Convertor.toDecimal(calculator.getText());
+            calculatorDecimal.setVisible(true);
             numberFormat = "decimal";
         }
     }

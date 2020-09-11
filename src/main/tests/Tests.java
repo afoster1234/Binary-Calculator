@@ -64,14 +64,14 @@ public class Tests {
     public void testSquare1(){
         ArithmeticOperators srq1 = new ArithmeticOperators();
         String t9 = srq1.square("0010");
-        Assert.assertEquals(t9, "0");
+        Assert.assertEquals(t9, "100");
     }
 
     @Test
     public void testSquare2(){
         ArithmeticOperators srq2 = new ArithmeticOperators();
         String t10 = srq2.square("0101");
-        Assert.assertEquals(t10, "111");
+        Assert.assertEquals(t10, "11001");
     }
 
     @Test
