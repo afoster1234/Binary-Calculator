@@ -26,12 +26,12 @@ public class ArithmeticOperators {
 
     public String square(String binary1) {
         int int1 = Convertor.toDecimal(binary1);
-        return Convertor.toBinary(int1 ^ int1);
+        return Convertor.toBinary(int1 ^ 2);
     }
 
     public String squareroot(String binary1) {
         int int1 = Convertor.toDecimal(binary1);
-        Math.sqrt(int1);
+        Math.round(Math.sqrt(int1));
         return Convertor.toBinary(int1);
     }
 }
