@@ -23,8 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afbd1ddd-2b80-4472-924f-1ef7dea74783" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_sdk_11_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tests/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/MainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MainMenu.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,18 +65,37 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599826687606" />
     <property name="jdk.selected.JAVA_MODULE" value="13.0.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/JavaFX/javafx-sdk-11.0.2" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="JUnit.Tests">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="BinaryCalculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainMenu" />
+      <module name="BinaryCalculator" />
+      <option name="VM_PARAMETERS" value="--module-path C:\Users\austi\Documents\JavaFX\javafx-sdk-11.0.2 --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BinaryCalculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,31 +105,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testDivision2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BinaryCalculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="testDivision2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tests.testSqroot1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BinaryCalculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" value="testSqroot1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.testSqroot2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BinaryCalculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="testSqroot2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,19 +126,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Tests.testDivision2" />
+      <item itemvalue="Application.MainMenu" />
       <item itemvalue="JUnit.Tests.testSquare2" />
-      <item itemvalue="JUnit.Tests.testSqroot2" />
       <item itemvalue="JUnit.Tests" />
       <item itemvalue="JUnit.Tests.testSqroot1" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Tests" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainMenu" />
         <item itemvalue="JUnit.Tests.testSqroot1" />
         <item itemvalue="JUnit.Tests.testSquare2" />
-        <item itemvalue="JUnit.Tests.testSqroot2" />
-        <item itemvalue="JUnit.Tests.testDivision2" />
       </list>
     </recent_temporary>
   </component>
@@ -163,38 +165,43 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599844529168" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599774786761">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599846255811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599774786761" />
-    <state width="936" height="281" key="GridCell.Tab.0.bottom" timestamp="1599845129592">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599846255811" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599846164982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599846164982" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1599846686492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="438" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1599717202896" />
-    <state width="936" height="281" key="GridCell.Tab.0.bottom/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599845129592" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599846686492" />
     <state width="1617" height="281" key="GridCell.Tab.0.bottom/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1599769441339" />
-    <state width="936" height="281" key="GridCell.Tab.0.center" timestamp="1599845129592">
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1599846686492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="438" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1599717202896" />
-    <state width="936" height="281" key="GridCell.Tab.0.center/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599845129592" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599846686492" />
     <state width="1617" height="281" key="GridCell.Tab.0.center/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1599769441339" />
-    <state width="936" height="281" key="GridCell.Tab.0.left" timestamp="1599845129592">
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1599846686491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="438" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1599717202896" />
-    <state width="936" height="281" key="GridCell.Tab.0.left/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599845129592" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599846686491" />
     <state width="1617" height="281" key="GridCell.Tab.0.left/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1599769441338" />
-    <state width="936" height="281" key="GridCell.Tab.0.right" timestamp="1599845129592">
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1599846686492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="438" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1599717202896" />
-    <state width="936" height="281" key="GridCell.Tab.0.right/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599845129592" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599846686492" />
     <state width="1617" height="281" key="GridCell.Tab.0.right/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1599769441339" />
-    <state x="2507" y="98" key="SettingsEditor" timestamp="1599768792986">
-      <screen x="1920" y="0" width="2560" height="1040" />
+    <state x="440" y="98" key="SettingsEditor" timestamp="1599846334236">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1599717183126" />
+    <state x="440" y="98" key="SettingsEditor/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599846334236" />
     <state x="2507" y="98" key="SettingsEditor/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1599768792986" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599771044105">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -204,6 +211,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="656" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/0.-1080.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591254482206" />
+    <state x="680" y="415" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599846326770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="680" y="415" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599846326770" />
     <state x="207" y="127" width="1646" height="831" key="dock-window-1" timestamp="1599770972765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
