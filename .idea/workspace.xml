@@ -23,105 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afbd1ddd-2b80-4472-924f-1ef7dea74783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Binary-Calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/tests/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tests/Tests.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1678292115">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="933" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="933" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ArithmeticOperators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/tests/Tests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Convertor.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,13 +41,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/tests/Tests.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -156,52 +57,6 @@
   </component>
   <component name="ProjectId" id="1WVDLpPMfiyDnGFTz9oTN5RHVfp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Binary-Calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Binary-Calculator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Binary-Calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Binary-Calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Binary-Calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Binary-Calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Binary-Calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Binary-Calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Binary-Calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Binary-Calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -213,62 +68,79 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599826687606" />
     <property name="jdk.selected.JAVA_MODULE" value="13.0.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.Tests.testAddition1">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Binary-Calculator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainMenu" />
+  <component name="RunManager" selected="JUnit.Tests">
+    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BinaryCalculator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.testAddition1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Binary-Calculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="testAddition1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testDivision2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinaryCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="testDivision2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testSqroot1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinaryCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="testSqroot1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testSqroot2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinaryCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="testSqroot2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.testSquare2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinaryCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="testSquare2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MainMenu" />
-      <item itemvalue="JUnit.Tests.testAddition1" />
+      <item itemvalue="JUnit.Tests.testDivision2" />
+      <item itemvalue="JUnit.Tests.testSquare2" />
+      <item itemvalue="JUnit.Tests.testSqroot2" />
+      <item itemvalue="JUnit.Tests" />
+      <item itemvalue="JUnit.Tests.testSqroot1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests.testAddition1" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainMenu" />
+        <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.Tests.testSqroot1" />
+        <item itemvalue="JUnit.Tests.testSquare2" />
+        <item itemvalue="JUnit.Tests.testSqroot2" />
+        <item itemvalue="JUnit.Tests.testDivision2" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -282,78 +154,42 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="DB Browser" />
-      <window_info id="UI Designer" />
-      <window_info id="Project Explorer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Job Explorer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="DB Execution Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
-      <window_info anchor="bottom" id="Console" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Convertor.java, which converts between decimal and binary." />
     <option name="LAST_COMMIT_MESSAGE" value="Created Convertor.java, which converts between decimal and binary." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1599768200966">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1599844529168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599768200966" />
+    <state x="440" y="94" key="#Project_Structure/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599844529168" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599774786761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599774786761" />
-    <state width="1617" height="281" key="GridCell.Tab.0.bottom" timestamp="1599769441339">
-      <screen x="1920" y="0" width="2560" height="1040" />
+    <state width="936" height="281" key="GridCell.Tab.0.bottom" timestamp="1599845129592">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="438" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1599717202896" />
+    <state width="936" height="281" key="GridCell.Tab.0.bottom/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599845129592" />
     <state width="1617" height="281" key="GridCell.Tab.0.bottom/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1599769441339" />
-    <state width="1617" height="281" key="GridCell.Tab.0.center" timestamp="1599769441339">
-      <screen x="1920" y="0" width="2560" height="1040" />
+    <state width="936" height="281" key="GridCell.Tab.0.center" timestamp="1599845129592">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="438" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1599717202896" />
+    <state width="936" height="281" key="GridCell.Tab.0.center/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599845129592" />
     <state width="1617" height="281" key="GridCell.Tab.0.center/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1599769441339" />
-    <state width="1617" height="281" key="GridCell.Tab.0.left" timestamp="1599769441338">
-      <screen x="1920" y="0" width="2560" height="1040" />
+    <state width="936" height="281" key="GridCell.Tab.0.left" timestamp="1599845129592">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="438" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1599717202896" />
+    <state width="936" height="281" key="GridCell.Tab.0.left/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599845129592" />
     <state width="1617" height="281" key="GridCell.Tab.0.left/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1599769441338" />
-    <state width="1617" height="281" key="GridCell.Tab.0.right" timestamp="1599769441339">
-      <screen x="1920" y="0" width="2560" height="1040" />
+    <state width="936" height="281" key="GridCell.Tab.0.right" timestamp="1599845129592">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="438" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1599717202896" />
+    <state width="936" height="281" key="GridCell.Tab.0.right/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599845129592" />
     <state width="1617" height="281" key="GridCell.Tab.0.right/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1599769441339" />
     <state x="2507" y="98" key="SettingsEditor" timestamp="1599768792986">
       <screen x="1920" y="0" width="2560" height="1040" />
@@ -384,47 +220,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="254" key="run.anything.popup/1920.0.2560.1040/0.0.1920.1040@1920.0.2560.1040" timestamp="1599770311658" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Convertor.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ArithmeticOperators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/tests/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
