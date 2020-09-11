@@ -10,13 +10,6 @@ public class ArithmeticOperators {
         int int1 = Convertor.toDecimal(binary1);
         int int2 = Convertor.toDecimal(binary2);
         int sub = int1 - int2;
-        boolean neg = false;
-        if(sub < 0){
-            neg = true;
-        }
-        if(neg){
-            //return "-" + Convertor.toBinary(sub);
-        }
         return Convertor.toBinary(sub);
     }
 
