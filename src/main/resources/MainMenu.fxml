@@ -2,11 +2,15 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 <AnchorPane prefHeight="480.0" prefWidth="320.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
-   <Label fx:id="calculator" layoutX="14.0" layoutY="14.0" prefHeight="93.0" prefWidth="291.0" />
+   <Label fx:id="calculator" layoutX="14.0" layoutY="14.0" prefHeight="93.0" prefWidth="291.0" style="-fx-background-color: #FFFFFF;">
+      <font>
+         <Font size="20.0" />
+      </font></Label>
    <Button fx:id="zero" layoutX="96.0" layoutY="190.0" mnemonicParsing="false" onAction="#zero" prefHeight="34.0" prefWidth="37.0" text="0" />
-   <Button fx:id="clear" layoutX="178.0" layoutY="441.0" mnemonicParsing="false" onAction="#clear" text="CLEAR" />
+   <Button fx:id="clear" layoutX="137.0" layoutY="441.0" mnemonicParsing="false" onAction="#clear" text="CLEAR" />
    <Button fx:id="one" layoutX="185.0" layoutY="190.0" mnemonicParsing="false" onAction="#one" prefHeight="34.0" prefWidth="37.0" text="1" />
    <Button fx:id="addition" layoutX="42.0" layoutY="270.0" mnemonicParsing="false" onAction="#addition" prefHeight="25.0" prefWidth="52.0" text="+" />
    <Button fx:id="subtraction" layoutX="134.0" layoutY="270.0" mnemonicParsing="false" onAction="#subtraction" prefHeight="25.0" prefWidth="51.0" text="-" />
@@ -15,5 +19,5 @@
    <Button fx:id="multiplication" layoutX="42.0" layoutY="345.0" mnemonicParsing="false" onAction="#multiplication" prefHeight="25.0" prefWidth="52.0" text="X" />
    <Button fx:id="division" layoutX="134.0" layoutY="345.0" mnemonicParsing="false" onAction="#division" prefHeight="25.0" prefWidth="51.0" text="\%" />
    <Button fx:id="equals" layoutX="97.0" layoutY="404.0" mnemonicParsing="false" onAction="#equals" prefHeight="25.0" prefWidth="131.0" text="=" />
-   <Button fx:id="Toggle" layoutX="231.0" layoutY="118.0" mnemonicParsing="false" onAction="#Toggle" prefHeight="25.0" prefWidth="74.0" text="Toggle Binary/Decimal" />
+   <Button fx:id="Toggle" layoutX="14.0" layoutY="118.0" mnemonicParsing="false" onAction="#Toggle" prefHeight="25.0" prefWidth="291.0" text="Toggle Binary/Decimal" />
 </AnchorPane>

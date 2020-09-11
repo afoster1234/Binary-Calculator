@@ -7,31 +7,19 @@ import javafx.scene.layout.Pane;
 
 public class Controller extends MainMenu {
     //calculator
-    @FXML
-    Label calculator;
-    @FXML
-    Button Toggle;
-    @FXML
-    Button clear;
-    @FXML
-    Button equals;
+    @FXML Label calculator;
+    @FXML Button Toggle;
+    @FXML Button clear;
+    @FXML Button equals;
+    @FXML Button zero;
+    @FXML Button one;
     //operators
-    @FXML
-    Button zero;
-    @FXML
-    Button one;
-    @FXML
-    Button addition;
-    @FXML
-    Button subtraction;
-    @FXML
-    Button multiplication;
-    @FXML
-    Button division;
-    @FXML
-    Button squared;
-    @FXML
-    Button squareRoot;
+    @FXML Button addition;
+    @FXML Button subtraction;
+    @FXML Button multiplication;
+    @FXML Button division;
+    @FXML Button squared;
+    @FXML Button squareRoot;
 
     ArithmeticOperators arithmetic = new ArithmeticOperators();
 
@@ -121,7 +109,6 @@ public class Controller extends MainMenu {
             Convertor.toDecimal(calculator.getText());
             numberFormat = "decimal";
         }
-
     }
 }
 
